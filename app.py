@@ -12,7 +12,7 @@ init_Base64 = 21
 
 #Initializing the Default Graph (prevent errors)
 global graph
-graph = tf.get_default_graph()
+graph = tf.compat.v1.get_default_graph()
 
 app = Flask(__name__, template_folder='templates')
 
