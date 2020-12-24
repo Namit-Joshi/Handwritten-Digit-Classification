@@ -12,7 +12,7 @@ init_Base64 = 21
 
 #Initializing the Default Graph (prevent errors)
 global graph
-graph = tf.compat.v1.get_default_graph()
+graph = tf.get_default_graph()
 
 app = Flask(__name__, template_folder='templates')
 
@@ -35,7 +35,7 @@ def predict():
                     #Removing the useless part of the url.
                     draw = draw[init_Base64:]
 
-                    print('Image URL: {}'.format(draw))
+                    #print('Image URL: {}'.format(draw))
                     #Decoding
                     draw_decoded = base64.b64decode(draw)
                     image = np.asarray(bytearray(draw_decoded), dtype="uint8")
@@ -47,7 +47,7 @@ def predict():
                     resized = cv2.resize(image, (28,28), interpolation = cv2.INTER_AREA)
                     vect = np.asarray(resized, dtype="uint8")
 
-                    print('Numpy Array: {}'.format(vect.shape))
+                    #print('Numpy Array: {}'.format(vect.shape))
 
                     vect = vect.reshape(1, 28, 28, 1).astype('float32')
                     vect = vect/255
@@ -55,7 +55,7 @@ def predict():
                     #Launch prediction
                     my_prediction = np.argmax(model.predict(vect), axis = -1)
 
-                    print('My_Prediction: {}'.format(my_prediction))
+                    #print('My_Prediction: {}'.format(my_prediction))
 
                     #Getting the index of the maximum prediction
                     final_pred = my_prediction[0]
