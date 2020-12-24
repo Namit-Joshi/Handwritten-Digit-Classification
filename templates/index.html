@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Handwritten Digit Classification</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <script type="text/javascript" src="/static/js/canvas.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+</head>
+    <header>
+     <b>Handwritten Digit Classification </b>
+    </header>
+
+<body style = "background-color: lightskyblue;" onload="drawCanvas();">
+    <h2>Draw any digit in the range 0 - 9 on the Canvas below:</h2>
+    <canvas id="myCanvas" width="300" height="300">
+    </canvas>
+        <div>
+        <br />
+            <button onclick="javascript:clearArea();return false;">Clear Area</button>
+            Line width : <select id="selWidth">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="9" selected="selected">9</option>
+                <option value="11">11</option>
+            </select>
+            Color : <select id="selColor">
+                <option value="white" selected="selected">white</option>
+                <option value="snow">snow</option>
+                <option value="montcream">mintcream</option>
+                <option value="babypowder">babypowder</option>
+                <option value="ivory">ivory</option>
+                <option value="ghostwhite">ghostwhite</option>
+            </select>
+        </div>        
+    
+    <div>    
+        <br />
+    <form id = "myForm" action="{{ url_for('predict')}}" method="POST" enctype="multipart/form-data">        
+        <input type="submit" id = 'predict' value="Predict" onclick="return save();">
+        <input type="hidden" id = 'url' name="url" value="">
+    </form>
+    </div>
+
+</body>
+</html>
