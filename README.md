@@ -18,3 +18,12 @@ A fully connected network is our RegularNet where each parameter is linked to on
 
 <img src="https://user-images.githubusercontent.com/42213693/90432513-44d3ff00-e0e8-11ea-8f01-b35a67030df0.jpeg">
 
+
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>  ](https://flask.palletsprojects.com/en/1.1.x/) 
+[<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=250>  ](https://gunicorn.org) 
+[<img target="_blank" src="https://keras.io/img/logo.png" width=200>  ](https://keras.io/)
+[<img target="_blank" src="https://numpy.org/images/logos/numpy.svg" height=75 width=100>  ](https://numpy.org/)
