@@ -1,6 +1,10 @@
 # Handwritten-Digit-Classification
 
+## Demo
+Link: [https://digit-recognition-nj.herokuapp.com/](https://digit-recognition-nj.herokuapp.com/)
+
 [![](https://i.imgur.com/SroZ7hg.png)](https://digit-recognition-nj.herokuapp.com/)
+
 [![](https://imgur.com/jgoAMDp.png)](https://digit-recognition-nj.herokuapp.com/)
 
 ## About the Dataset
