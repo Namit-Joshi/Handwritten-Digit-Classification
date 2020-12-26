@@ -1,5 +1,8 @@
 # Handwritten-Digit-Classification
 
+## Overview
+This is a Flask web app in which the user draws any digit ranging from 0-9 and the app tries to recognize which digit the user has drawn.
+
 ## Demo
 Link: [https://digit-recognition-nj.herokuapp.com/](https://digit-recognition-nj.herokuapp.com/)
 
@@ -12,6 +15,7 @@ MNIST dataset contains images of handwritten digits. It has 60,000 grayscale ima
 
 The state of the art result for MNIST dataset has an accuracy of 99.79%. I have achieved an accuracy of 99.32% .I have used the Keras library with Tensorflow backend to classify the images.
 
+# Theory
 ## Convolutional Layers
 Convolutional layer is the very first layer where we extract features from the images in our datasets. Due to the fact that pixels are only related with the adjacent and close pixels, convolution allows us to preserve the relationship between different parts of an image. Convolution is basically filtering the image with a smaller pixel filter to decrease the size of the image without loosing the relationship between pixels.
 
