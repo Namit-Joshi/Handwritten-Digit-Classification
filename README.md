@@ -1,5 +1,8 @@
 # Handwritten-Digit-Classification
 
+[![](https://i.imgur.com/SroZ7hg.png)](https://digit-recognition-nj.herokuapp.com/)
+[![](https://imgur.com/jgoAMDp.png)](https://digit-recognition-nj.herokuapp.com/)
+
 ## About the Dataset
 MNIST dataset contains images of handwritten digits. It has 60,000 grayscale images under the training set and 10,000 grayscale images under the test set taken from American Census Bureau employees and American high school students 
 
