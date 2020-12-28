@@ -15,7 +15,7 @@ MNIST dataset contains images of handwritten digits. It has 60,000 grayscale ima
 
 The state of the art result for MNIST dataset has an accuracy of 99.79%. I have achieved an accuracy of 99.32% .I have used the Keras library with Tensorflow backend to classify the images.
 
-# Theory
+# Different Layers in CNNs
 ## Convolutional Layers
 Convolutional layer is the very first layer where we extract features from the images in our datasets. Due to the fact that pixels are only related with the adjacent and close pixels, convolution allows us to preserve the relationship between different parts of an image. Convolution is basically filtering the image with a smaller pixel filter to decrease the size of the image without loosing the relationship between pixels.
 
@@ -35,6 +35,10 @@ A fully connected network is our RegularNet where each parameter is linked to on
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
 [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>  ](https://flask.palletsprojects.com/en/1.1.x/) 
+&nbsp;
 [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=250>  ](https://gunicorn.org) 
+&nbsp;
 [<img target="_blank" src="https://keras.io/img/logo.png" width=200>  ](https://keras.io/)
+&nbsp;
 [<img target="_blank" src="https://numpy.org/images/logos/numpy.svg" height=75 width=100>  ](https://numpy.org/)
+&nbsp;
