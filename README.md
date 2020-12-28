@@ -27,7 +27,14 @@ A fully connected network is our RegularNet where each parameter is linked to on
 
 <br></br>
 
-<img src="https://user-images.githubusercontent.com/42213693/90432513-44d3ff00-e0e8-11ea-8f01-b35a67030df0.jpeg">
+[<img target="_blank" src="https://miro.medium.com/max/2808/1*SGPGG7oeSvVlV5sOSQ2iZw.png">  ](https://github.com/Namit-Joshi/Handwritten-Digit-Classification)
+
+## Deployment on Heroku
+Login or signup in order to create virtual app. You can either connect your github profile or download Heroku CLI to manually deploy this project.
+
+[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+
+Follow the instructions given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) on how to deploy a web app.
 
 
 ## Technologies Used
