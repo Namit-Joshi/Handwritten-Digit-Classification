@@ -29,6 +29,13 @@ A fully connected network is our RegularNet where each parameter is linked to on
 
 [<img target="_blank" src="https://miro.medium.com/max/2808/1*SGPGG7oeSvVlV5sOSQ2iZw.png">  ](https://github.com/Namit-Joshi/Handwritten-Digit-Classification)
 
+## Deployment on Heroku
+Login or signup in order to create virtual app. You can either connect your github profile or download Heroku CLI to manually deploy this project.
+
+[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+
+Follow the instructions given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) on how to deploy a web app.
+
 ## Directory Tree 
 ```
 ├── static 
@@ -47,20 +54,11 @@ A fully connected network is our RegularNet where each parameter is linked to on
 ├── requirements.txt
 ```
 
-
-## Deployment on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download Heroku CLI to manually deploy this project.
-
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
-
-Follow the instructions given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) on how to deploy a web app.
-
-
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>  ](https://flask.palletsprojects.com/en/1.1.x/) 
+[<img target="_blank" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" width=170>  ](https://flask.palletsprojects.com/en/1.1.x/) 
 &nbsp;
 [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=250>  ](https://gunicorn.org) 
 &nbsp;
