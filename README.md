@@ -29,6 +29,25 @@ A fully connected network is our RegularNet where each parameter is linked to on
 
 [<img target="_blank" src="https://miro.medium.com/max/2808/1*SGPGG7oeSvVlV5sOSQ2iZw.png">  ](https://github.com/Namit-Joshi/Handwritten-Digit-Classification)
 
+## Directory Tree 
+```
+├── static 
+│   ├── css
+|   |   ├──style.css
+|   ├── js
+|   |   ├──canvas.js
+├── templates
+│   ├── index.html
+│   ├── results.html
+├── MNIST_final.ipynb
+├── Procfile
+├── README.md
+├── app.py
+├── finalmodel.h5
+├── requirements.txt
+```
+
+
 ## Deployment on Heroku
 Login or signup in order to create virtual app. You can either connect your github profile or download Heroku CLI to manually deploy this project.
 
